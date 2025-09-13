@@ -21,10 +21,12 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
+          light: "hsl(var(--primary-light))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
+          light: "hsl(var(--secondary-light))",
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
@@ -37,6 +39,7 @@ export default {
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
+          light: "hsl(var(--accent-light))",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
@@ -57,6 +60,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'medium': 'var(--shadow-medium)',
+        'strong': 'var(--shadow-strong)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'fast': 'var(--transition-fast)',
       },
       borderRadius: {
         lg: "var(--radius)",
